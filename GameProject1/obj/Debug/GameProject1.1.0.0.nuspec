@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GameProject1</id>
+    <version>1.0.0</version>
+    <authors>GameProject1</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="MonoGame.Content.Builder.Task" version="3.8.0.1641" exclude="Build,Analyzers" />
+        <dependency id="MonoGame.Framework.WindowsDX" version="3.8.0.1641" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/Content/bin/Windows/Content/bangers.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/Windows/Content/Fireball.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/Windows/Content/Lil_Dragon_Head1.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/Windows/Content/Lil_D_Body1.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/Windows/Content/Mecheval.xnb" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="F:\Files\CSDocs\cis580\GameProject1\bin\Debug\netcoreapp3.1\GameProject1.runtimeconfig.json" target="lib\netcoreapp3.1\GameProject1.runtimeconfig.json" />
+    <file src="F:\Files\CSDocs\cis580\GameProject1\bin\Debug\netcoreapp3.1\GameProject1.dll" target="lib\netcoreapp3.1\GameProject1.dll" />
+    <file src="F:\Files\CSDocs\cis580\GameProject1\Content\bin\Windows\Content\bangers.xnb" target="content\Content\bin\Windows\Content\bangers.xnb" />
+    <file src="F:\Files\CSDocs\cis580\GameProject1\Content\bin\Windows\Content\bangers.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\Windows\Content\bangers.xnb" />
+    <file src="F:\Files\CSDocs\cis580\GameProject1\Content\bin\Windows\Content\Fireball.xnb" target="content\Content\bin\Windows\Content\Fireball.xnb" />
+    <file src="F:\Files\CSDocs\cis580\GameProject1\Content\bin\Windows\Content\Fireball.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\Windows\Content\Fireball.xnb" />
+    <file src="F:\Files\CSDocs\cis580\GameProject1\Content\bin\Windows\Content\Lil_Dragon_Head1.xnb" target="content\Content\bin\Windows\Content\Lil_Dragon_Head1.xnb" />
+    <file src="F:\Files\CSDocs\cis580\GameProject1\Content\bin\Windows\Content\Lil_Dragon_Head1.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\Windows\Content\Lil_Dragon_Head1.xnb" />
+    <file src="F:\Files\CSDocs\cis580\GameProject1\Content\bin\Windows\Content\Lil_D_Body1.xnb" target="content\Content\bin\Windows\Content\Lil_D_Body1.xnb" />
+    <file src="F:\Files\CSDocs\cis580\GameProject1\Content\bin\Windows\Content\Lil_D_Body1.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\Windows\Content\Lil_D_Body1.xnb" />
+    <file src="F:\Files\CSDocs\cis580\GameProject1\Content\bin\Windows\Content\Mecheval.xnb" target="content\Content\bin\Windows\Content\Mecheval.xnb" />
+    <file src="F:\Files\CSDocs\cis580\GameProject1\Content\bin\Windows\Content\Mecheval.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\Windows\Content\Mecheval.xnb" />
+  </files>
+</package>
